@@ -2,7 +2,7 @@
 
 import { STATIC_PATH } from '../shared/config'
 
-const renderApp = (title: string) => 
+const renderApp = (title: string) =>
 `<!doctype html>
 <html>
     <head>

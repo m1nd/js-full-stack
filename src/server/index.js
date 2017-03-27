@@ -14,9 +14,9 @@ app.use(STATIC_PATH, express.static('dist'))
 app.use(STATIC_PATH, express.static('public'))
 
 app.get('/', (req, res) => {
-    res.send(renderApp(APP_NAME))
+  res.send(renderApp(APP_NAME))
 })
 
 app.listen(WEB_PORT, () => {
-    console.log(`Server running on port ${WEB_PORT} ${isProd ? '(production)' : '(development)' }.`)
+  console.log(`Server running on port ${WEB_PORT} ${isProd ? '(production)' : '(development)'}.`)
 })
